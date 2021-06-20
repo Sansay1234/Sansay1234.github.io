@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+
+h3{
+	color:#2F363F;
+}
+
+
+button:hover,h1:hover{
+	transform: scale(1.1);
+}
+.bt{
+	background:red;
+	background-size: cover;
+	
+  }
+  
+
+
+footer p{
+	margin: 0;
+	font-size: 15px;
+
+}
+.im{
+	width: 180px;
+	height: 180px;
+}
+
+
+@media only screen and (orientation:portrait){
+	.intro{
+		display:flex;
+		flex-direction: column-reverse;
+	}
+	h1{
+		font-size: 40px;
+	}
+	.act{
+		padding-bottom: 100px;
+	}
+
+}
